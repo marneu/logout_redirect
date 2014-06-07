@@ -1,0 +1,22 @@
+<?php
+
+/* lougout_redirect plugin */
+
+/*
+     It will redirect the logout page
+     to the given URL in any case.
+*/
+
+/**
+ * Notice: This plugin must run as the last plugins because it exits 
+  *         on the 'logout_after' hook !!!
+**/
+
+/*
+  $rcmail_config['logout_redirect_url'] = '%d'; resolve users standard identity email domain
+        i.e. after logout name@domain.de will return domain.de
+*/
+
+$config['logout_redirect_url'] = 'http://www.%d/'; // %d ~ users domain part
+
+?>
