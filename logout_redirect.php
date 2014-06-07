@@ -32,10 +32,10 @@ class logout_redirect extends rcube_plugin
   
   function init()
   {
-      if ( file_exists("./plugins/logout_redirect/config/config.inc.php") )
-          $this->load_config('config/config.inc.php');
+      if ( file_exists("./plugins/logout_redirect/config.inc.php") )
+          $this->load_config('config.inc.php');
       else
-          $this->load_config('config/config.inc.php.dist');
+          $this->load_config('config.inc.php.dist');
 
     $this->add_hook('logout_after', array($this,'logout_after'));
   }
