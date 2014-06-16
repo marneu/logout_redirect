@@ -2,7 +2,7 @@
     "name": "marneu/logout_redirect",
     "type": "roundcube-plugin",
     "description": "Plugin to redirect on logout to the homepage of the email domain.",
-    "keywords": ["customize","logout","redirect"],
+    "keywords": ["customize","settings","logout","redirect"],
     "license": "GNU GPLv3+",
     "version": "1.4",
     "authors": [
