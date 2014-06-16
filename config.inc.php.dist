@@ -7,16 +7,12 @@
      to the given URL in any case.
 */
 
-/**
- * Notice: This plugin must run as the last plugins because it exits 
-  *         on the 'logout_after' hook !!!
-**/
-
 /*
-  $rcmail_config['logout_redirect_url'] = '%d'; resolve users standard identity email domain
-        i.e. after logout name@domain.de will return domain.de
+  $rcmail_config['logout_redirect_url'] = 'http://www.%d';
+        %d will be replaced by the default identity domain part.
+        i.e. after logout name@example.com will return http://www.example.com
 */
 
-$config['logout_redirect_url'] = 'http://www.%d/'; // %d ~ users domain part
+$config['logout_redirect_url'] = 'http://www.%d/';
 
 ?>
