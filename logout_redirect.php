@@ -22,7 +22,7 @@
  
 class logout_redirect extends rcube_plugin
 {
-  public $task = 'startup|logout';
+  public $task = 'logout';
     // we've got no ajax handlers
     public $noajax = true;
     // skip frames
