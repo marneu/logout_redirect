@@ -19,4 +19,4 @@ $config['logout_redirect_url'] = 'http://www.%d/';
 ```
 
 Homepage:
-http://www.std-soft.com/index.php/hm-service/81-c-std-service-code/5-rc-plugin-logout-redirect-beim-logout-auf-die-homepage-der-domain-umleiten
+https://www.std-soft.com/hm-service/code/5-rc-plugin-logout-redirect-beim-logout-auf-die-homepage-der-domain-umleiten
